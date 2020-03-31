@@ -14,6 +14,8 @@ import {
   getParameterByName
 } from './helpers'
 
+import NavBar from './nav-bar'
+
 cssVars({})
 
 $(document).ready(() => {
@@ -301,3 +303,12 @@ $(document).ready(() => {
   checkForActionParameter()
   trySearchFeature()
 })
+
+
+/* Nav Bar */
+
+const navbarBurgers = document.querySelectorAll('.navbar-burger');
+
+if (navbarBurgers.length > 0) {
+  new NavBar();
+}

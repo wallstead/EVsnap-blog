@@ -69,3 +69,33 @@
 
 @import "libs/slick";
 @import "libs/aos/aos";
+
+/* Overrides */
+
+body {
+    background-color: #FCF7EF;
+    overflow-x: hidden;
+}
+
+$purp: #211746;
+$purp-invert: #ffffff;
+$ada-lavender: #6055F6;
+
+$primary: $purp;
+$primary-invert: $purp-invert;
+
+$link: $ada-lavender;
+
+
+$family-sans-serif: 'Nunito Sans', sans-serif;
+
+.m-hero {
+    background-color: unset;
+}
+
+.electricity {
+    color: #F9D270;
+}
+
+
+@import "../node_modules/bulma/bulma";

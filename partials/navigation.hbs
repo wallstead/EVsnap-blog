@@ -4,7 +4,5 @@ Also it includes the big submenu.
 --}}
 
 {{#foreach navigation}}
-  <li class="nav-{{slug}}{{#if current}} nav-current{{/if}}">
-    <a href="{{url absolute="true"}}">{{label}}</a>
-  </li>
+    <a class="navbar-item" href="{{url absolute="true"}}">{{label}}</a>
 {{/foreach}}
